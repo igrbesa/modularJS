@@ -1,0 +1,11 @@
+ground rules:
+-self-contained module
+--everything to do with my moduel is in my module
+--no global variables
+--if a moduel manages more than one thing it should be split up
+-separation of concerns
+-DRY code
+-efficient DOM usage
+--very few $(selections)
+-no memory leaks
+--all events can be unbound
