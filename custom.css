@@ -1,0 +1,12 @@
+.containerlay{
+    left: 170px;
+    position: absolute;
+    right: 170px
+    
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
