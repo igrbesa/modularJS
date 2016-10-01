@@ -18,6 +18,8 @@ var people = (function(){
 		function _render() {
 			var data = {peoples: peoples};
 			$listPeoples.html(Mustache.render(template, data));
+			stats.setPeople(peoples.length);
+
 		}
 		function addPerson(value){
 			var name = (typeof value === "string") ? value : $input.val();
