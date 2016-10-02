@@ -6,6 +6,7 @@ var stats = (function(){
 	var template = $('#statsModule').html();
 	var $stat = $('#statsModule');
 
+	events.on("peopleChanged", setPeople)
 	_render();
 
 	function _render() {
@@ -17,8 +18,10 @@ var stats = (function(){
 		_render();
 	}
 
+	/*
 	return{
 		setPeople: setPeople
 	}
+	*/
 
 })()
